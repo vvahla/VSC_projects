@@ -1,0 +1,13 @@
+B:\VSC_projects\testing\bin\Debug\netcoreapp3.1\testing.exe
+B:\VSC_projects\testing\bin\Debug\netcoreapp3.1\testing.deps.json
+B:\VSC_projects\testing\bin\Debug\netcoreapp3.1\testing.runtimeconfig.json
+B:\VSC_projects\testing\bin\Debug\netcoreapp3.1\testing.runtimeconfig.dev.json
+B:\VSC_projects\testing\bin\Debug\netcoreapp3.1\testing.dll
+B:\VSC_projects\testing\bin\Debug\netcoreapp3.1\testing.pdb
+B:\VSC_projects\testing\obj\Debug\netcoreapp3.1\testing.csprojAssemblyReference.cache
+B:\VSC_projects\testing\obj\Debug\netcoreapp3.1\testing.AssemblyInfoInputs.cache
+B:\VSC_projects\testing\obj\Debug\netcoreapp3.1\testing.AssemblyInfo.cs
+B:\VSC_projects\testing\obj\Debug\netcoreapp3.1\testing.csproj.CoreCompileInputs.cache
+B:\VSC_projects\testing\obj\Debug\netcoreapp3.1\testing.dll
+B:\VSC_projects\testing\obj\Debug\netcoreapp3.1\testing.pdb
+B:\VSC_projects\testing\obj\Debug\netcoreapp3.1\testing.genruntimeconfig.cache
