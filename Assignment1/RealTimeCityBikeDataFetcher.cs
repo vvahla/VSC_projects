@@ -17,6 +17,8 @@ public class RealTimeCityBikeDataFetcher : ICityBikeDataFetcher
 
             BikeRentalStationList list = JsonConvert.DeserializeObject<BikeRentalStationList>(stations); 
             
+
+
         }
         catch(HttpRequestException e)
         {
