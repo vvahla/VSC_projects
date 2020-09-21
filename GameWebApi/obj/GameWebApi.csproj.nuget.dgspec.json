@@ -36,9 +36,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Newtonsoft.Json": {
+            "MongoDb.Driver": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

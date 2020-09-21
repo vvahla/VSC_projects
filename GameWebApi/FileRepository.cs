@@ -21,12 +21,12 @@ static PlayersList playersList;
     }
     */
 
-    Task<Player> IRepository.Get(Guid id)
+    Task<Player> IRepository.GetPlayer(Guid id)
     {
         throw new NotImplementedException();
     }
 
-    Task<Player[]> IRepository.GetAll()
+    Task<Player[]> IRepository.GetAllPlayers()
     {
         Player[] players;
         string playersString;
@@ -35,14 +35,11 @@ static PlayersList playersList;
         playersString = File.ReadAllText(path);
         PlayersList = JsonConvert.DeserializeObject<Player>(playersString);
 
-        foreach(var player in playersList.players){
-            players
-        }
     }
 
-    async Task<Player> IRepository.Create(Player player)
+    async Task<Player> IRepository.CreatePlayer(Player player)
     {
-        string path = @"c:\temp\game-dev.txt";
+        string path = @"c:\temp\game-dev-players.txt";
         if (!File.Exists(path))
         {
             File.WriteAllText(path, JsonConvert.SerializeObject(player));
@@ -52,13 +49,56 @@ static PlayersList playersList;
         throw new NotImplementedException();
     }
 
-    Task<Player> IRepository.Modify(Guid id, ModifiedPlayer player)
+    Task<Player> IRepository.UpdatePlayer(Player player)
     {
         throw new NotImplementedException();
     }
 
-    Task<Player> IRepository.Delete(Guid id)
+    Task<Player> IRepository.DeletePlayer(Guid id)
     {
         throw new NotImplementedException();
     }
+
+    Task<Item> IRepository.GetItem(Guid playerId, Guid itemId)
+    {
+        throw new NotImplementedException();
+    }
+
+    Task<Item[]> IRepository.GetAllItems(Guid playerId)
+    {
+        Item[] items;
+        string itemsString;
+        string path = "";
+
+        itemsString = File.ReadAllText(path);
+        itemsList = JsonConvert.DeserializeObject<Player>(itemsString);
+    }
+
+    async Task<Item> IRepository.CreateItem(Guid playerId, Item item)
+    {
+        string path = @"c:\temp\game-dev-items.txt";
+        if (!File.Exists(path))
+        {
+            File.WriteAllText(path, JsonConvert.SerializeObject(item));
+        }
+
+        return item;
+        throw new NotImplementedException();
+    }
+
+    Task<Item> IRepository.UpdateItem(Guid playerId, Item item)
+    {
+        throw new NotImplementedException();
+    }
+
+    Task<Item> IRepository.DeleteItem(Guid playerId, Item item)
+    {
+        throw new NotImplementedException();
+    }
+}
+public class PlayersList{
+    public List<Player> players { get; set; }
+}
+public class ItemsList{
+    public List<Item> items { get; set; }
 }
