@@ -1,7 +1,7 @@
 using System;
 public class Item
 {
-int Level;
+    int Level;
     enum ItemType
     {
         SWORD,

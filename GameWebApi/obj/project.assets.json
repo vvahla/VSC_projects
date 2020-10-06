@@ -4830,19 +4830,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Käyttäjä\\.nuget\\packages\\": {}
+    "C:\\Users\\vahla\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\VSC_projects\\GameWebApi\\GameWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\vahla\\Documents\\Github\\VSC_projects\\GameWebApi\\GameWebApi.csproj",
       "projectName": "GameWebApi",
-      "projectPath": "B:\\VSC_projects\\GameWebApi\\GameWebApi.csproj",
-      "packagesPath": "C:\\Users\\Käyttäjä\\.nuget\\packages\\",
-      "outputPath": "B:\\VSC_projects\\GameWebApi\\obj\\",
+      "projectPath": "C:\\Users\\vahla\\Documents\\Github\\VSC_projects\\GameWebApi\\GameWebApi.csproj",
+      "packagesPath": "C:\\Users\\vahla\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vahla\\Documents\\Github\\VSC_projects\\GameWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Käyttäjä\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vahla\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -4891,7 +4891,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
